@@ -17,7 +17,7 @@ function App() {
     <main>
       <APIProvider apiKey="AIzaSyDpi9UQH0ORtprLFkNfrjFsY_kGYFzyGGQ">
         <div style={{height: "100vh", width: "100%"}}>
-          <Map streetViewControl={false} defaultCenter={TestMarker} zoom={15} mapId="3a1d06301097d67f">
+          <Map streetViewControl={false}  zoomControl ={false} mapTypeControl = {false} defaultCenter={TestMarker} defaultZoom={15} mapId="3a1d06301097d67f">
             <AdvancedMarker position={TestMarker} onClick={() => setOpen(true)}>
               {/*<Pin background={"grey"}></Pin>*/}
             </AdvancedMarker>
